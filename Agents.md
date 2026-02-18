@@ -1,3 +1,63 @@
+# 🧩 Project Definition (WHAT WE ARE BUILDING)
+
+This project is a:
+
+👉 Social Blog / Community App
+
+Users can:
+
+• create an account (custom auth, no Supabase Auth)
+• create posts (text + multiple images)
+• view a feed of posts
+• view user profiles
+• comment on posts
+• attach images to comments
+• react to posts/comments (like, etc.)
+• upload avatars
+• edit/delete their own content
+
+---
+
+## Core Features
+
+### Users
+
+- register / login / logout
+- profile with avatar, display name, bio
+
+### Posts
+
+- create post
+- text content
+- multiple images
+- list feed (paginated)
+- update/delete own posts
+
+### Comments
+
+- add comments
+- optional images
+- update/delete own comments
+
+### Reactions
+
+- like/react to posts or comments
+- counts per item
+
+---
+
+## UI Expectations
+
+- feed style layout
+- avatars everywhere
+- image-heavy content
+- fast scrolling lists
+- cached images
+- shimmer loading
+- pagination ready
+
+All screens must follow the architecture defined in this document.
+
 # Agents Architecture Guide
 
 Supabase + Provider + ChangeNotifier + Repository Pattern
